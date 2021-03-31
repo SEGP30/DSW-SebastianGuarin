@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, Serif;
+
+}
+.header{
+    text-decoration: none;
+}
+
+.menu_Contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    height: 55px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.opciones{
+    display: flex;
+    list-style: none;
+}
+
+.opciones li{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.inicio a{
+    text-decoration: none;
+}
+
+.inicio a:hover{
+    color:white;
+}
+
+.temas a{
+    text-decoration: none;
+}
+
+.subtemas {
+    position: absolute;
+}
+.subtemas li a{
+    display: block;
+}
+
+.temas a:hover {
+    color:white;
+}
+
+.recursos_Digitales a{
+    text-decoration: none;
+}
+
+.recursos_Digitales a:hover{
+    color: white;
+}
+
+.subrecursos{
+
+}
+
+.actividades a{
+    text-decoration: none;
+}
+
+.actividades a:hover{
+    color: white;
+}
+
+.subactividades {
+
+}
