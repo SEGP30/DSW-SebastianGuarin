@@ -113,7 +113,9 @@ main{
 
 .parrafo-primersection{
     text-align: justify;
+    padding-right: 20px;
 }
+
 .primer-articulo{
     margin:80px 40px;
     padding-bottom: 20px;
@@ -126,67 +128,107 @@ main{
 .titulo-primerarticulo{
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px 0;
+    color: gold;
+    -webkit-text-stroke: 1px black;
 }
 
 .parrafo-primerarticulo{
     padding: 0px 20px 20px 20px;
-
+    text-align: justify;
 }
+
+.cuadro{
+    margin: 20px 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Tituloscuadro1{
+    text-align: center;
+    border-right: 1px solid black;
+    color: gold;
+    -webkit-text-stroke: 1px black;
+}
+
+.listas1{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 25px 25px;
+}
+
+.listas1 li{
+    text-align: justify;
+}
+
+.Tituloscuadro2{
+    text-align: center;
+    color: gold;
+    -webkit-text-stroke: 1px black;
+}
+
+.listas2{
+    border-top: 1px solid black;
+    padding: 25px 25px;
+}
+
+.listas2 li{
+    text-align: justify;
+}
+
+.ejemplosCSS{
+    margin: 20px 20px;
+}
+
+.ejemplosCSS-lista{
+    margin: 0px 30px;
+}
+
 
 .figure-frameworks{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:20px 0;
+}
+
+.titulo-figure{
+    color: gold;
+    -webkit-text-stroke: 1px black;
 }
 
 .img-frameworks{
     border-radius: 10px;
     margin-bottom: 5px;
+    height: 400px;
+    width: 700px;
 }
 
 .cita-img{
-    text-align: center;
+    display: block;
+    text-align: center ;
+    padding: 0 50px;
 }
 
-.segundo-articulo{
-    margin:80px 40px 0px;
-    padding: 20px;
-    border-bottom: 5px solid goldenrod;
-    box-shadow: 5px 5px 10px 0px #aaaaaa;
-    display: flex;
+.referencias{
+    margin: 20px 20px;
 }
 
-.cobertura-titulo-parrafo{
-    margin: 0 25px;
+.titulo-referencia{
+    color: gold;
+    -webkit-text-stroke: 1px black;
 }
 
-.parrafo-segundoarticulo{
+.listas-referencias{
+    margin: 0 20px 10px 20px;
+}
+
+.listas-referencias li{
+    margin: 10px 0;
     text-align: justify;
 }
-
-.cita-img-2{
-    text-align: center;
-    font-size: 10px;
-}
-
-.img-posicionamiento{
-    height: 200px;
-    width: 420px;
-    border-radius: 10px;
-}
-
-.mockup-ova{
-    margin:80px 50px 0px;
-    display: flex;
-}
-
-.titulo-mockup{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 /*------------------footer---------------*/
 
 .footer{

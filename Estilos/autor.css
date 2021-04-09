@@ -107,13 +107,6 @@ main{
     display: flex;
 }
 
-.titulo-primersection{
-    padding-right: 20px;
-}
-
-.parrafo-primersection{
-    text-align: justify;
-}
 .primer-articulo{
     margin:80px 40px;
     padding-bottom: 20px;
@@ -123,69 +116,49 @@ main{
     border-bottom: 5px solid goldenrod;
 }
 
-.titulo-primerarticulo{
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.parrafo-primerarticulo{
-    padding: 0px 20px 20px 20px;
-
-}
-
-.figure-frameworks{
+.contenedor-autor{
+    margin: 20px 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: gold;
+    border: 2px solid black;
+    border-radius: 20px;
+    box: 5px 5px 5px 5px #aaaaaa;
 }
 
-.img-frameworks{
-    border-radius: 10px;
-    margin-bottom: 5px;
-}
-
-.cita-img{
+.titulo-autor{
+    color: black;
+    text-transform: uppercase;
     text-align: center;
 }
 
-.segundo-articulo{
-    margin:80px 40px 0px;
-    padding: 20px;
-    border-bottom: 5px solid goldenrod;
-    box-shadow: 5px 5px 10px 0px #aaaaaa;
+.titulo-autor-nombre{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.autor-imagen{
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 500px;
+    margin: 30px 0;
+}
+
+.autor-contenedor-datos{
     display: flex;
-}
-
-.cobertura-titulo-parrafo{
-    margin: 0 25px;
-}
-
-.parrafo-segundoarticulo{
-    text-align: justify;
-}
-
-.cita-img-2{
-    text-align: center;
-    font-size: 10px;
-}
-
-.img-posicionamiento{
-    height: 200px;
-    width: 420px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.mockup-ova{
-    margin:80px 50px 0px;
-    display: flex;
-}
 
-.titulo-mockup{
-    text-align: center;
-    margin-bottom: 20px;
-}
 
 /*------------------footer---------------*/
 

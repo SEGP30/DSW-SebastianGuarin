@@ -2,92 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="../Estilos/index.css">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce="S2h9qEzF"></script>
 </head>
 <body>
 
-<header class="header">
+<header>
 
-<nav class="menu_Contenedor">
-    <ul class="opciones">
-        <li class="inicio">
-            <a href="#">Inicio</a>
-        </li>
+    <nav class="menu_Contenedor">
+        <ul class="opciones">
 
-        <li class="temas">
-            <a href="">Temas</a>
-            <ul class="subtemas">
-                <li>
-                    <a href="">Tema 1</a>
-                </li>
-                <li>
-                    <a href="">Tema 2</a>
-                </li>
-            </ul>
-        </li>
+            <li class="temas"><a class="a-tema" href="#">Inicio</a>
+                <ul class="subtemas">
+                    <li class="lis-subtema"><a href="../index.html">Index principal</a></li>
+                    <li class="lis-subtema"><a href="introduccion.html">Introduccion</a></li>
+                </ul>
+            </li>
 
-        <li class="recursos_Digitales">
-            <a href="">Recursos Digitales</a>
-            <ul class="subrecursos">
-                <li>
-                    <a href="">Recurso 1</a>
-                </li>
-                <li>
-                    <a href="">Recurso 2</a>
-                </li>
-            </ul>
-        </li>
+            <li class="temas"><a class="a-tema" href="">Temas</a>
+                <ul class="subtemas">
+                    <li class="lis-subtema"><a href="./tema1.html">Tema 1</a></li>
+                    <li class="lis-subtema"><a href="./tema2.html">Tema 2</a></li>
+                </ul>
+            </li>
 
-        <li class="actividades">
-            <a href="">Aprendizaje</a>
-            <ul class="subactividades">
-                <li>
-                    <a href="">Actividad 1</a>
-                </li>
-                <li>
-                    <a href="">Actividad 2</a>
-                </li>
-            </ul>
-        </li>
+            <li class="temas"><a class="a-tema" href="">Recursos Digitales</a>
+                <ul class="subtemas">
+                    <li class="lis-subtema"><a href="recursosdigitales1.html">Recurso Digitales 1</a></li>
+                    <li class="lis-subtema"><a href="recursosdigitales2.html">Recurso Digitales 2</a></li>
+                </ul>
+            </li>
 
-        <li>Autor: Sebastián Guarín Palacio</li>
-    </ul>
+            <li class="temas"><a class="a-tema" href="">Aprendizaje</a>
+                <ul class="subtemas">
+                    <li class="lis-subtema"><a href="">Aprendizaje 1</a></li>
+                    <li class="lis-subtema"><a href="">Aprendizaje 2</a></li>
+                </ul>
+            </li>
 
-</nav>
+            <li class="temas"><a class="a-tema" href="autor.html">Autor</a></li>
+        </ul>
+
+    </nav>
 </header>
 
-<section>
-    <h1>Objeto virtual de aprendizaje: Frameworks CSS y Posicionamiento Web</h1>
-    <p>El propósito de este sitio web es suplir con la necesidad que surge a partir de la pandemia COVID-19 que está afectando la manera de dar las clases a los estudiantes,
-        donde la presencialidad se ve afectada.<br>
-        Aquí se abordarán los temas de Frameworks CSS y Posicionamiento Web, con sus respectivos contenidos y actividades. </p>
-</section>
-<article>
-    <h3>Frameworks CSS</h3>
-    <p>
-        <b>CSS (Cascading Style Sheets u Hojas de Estilo en Cascada)</b> es un lenguaje de programación muy parecido a HTML que permite aplicar estilos a los distintos elementos de las páginas web,
-        de modo que los títulos, listas y párrafos pueden verse igual en todas y cada una de las páginas. Entonces, un <b>framework de CSS</b> es una biblioteca de estilos genéricos que puede ser usada para implementar diseños web.<br>
-        <img src="../Fase%202/image/frameworkcss.png" alt="framework css" >
-    <h5>Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</h5>
-    </p>
-</article>
-<article>
-    <h3>Posicionamiento Web</h3>
-    <p>
-        El posicionamiento en buscadores, optimización en motores de búsqueda o SEO (del inglés search engine optimization), es un conjunto de acciones orientadas a mejorar el posicionamiento
-        de un sitio web en la lista de resultados  de buscadores de internet (como Google, Bing, u otros buscadores).<br>
-        <img src="../Fase%202/image/posicionamientoweb.jpg" alt="posicionmiento web">
-    <h5>Posicionamiento en buscadores. (2020, 25 de octubre). Wikipedia, La enciclopedia libre. Fecha de consulta: 04:47, marzo 11, 2021 desde https://es.wikipedia.org/w/index.php?title=Posicionamiento_en_buscadores&oldid=130366542.</h5>
-    </p>
-</article>
-<img src="../Fase%202/image/mockup.png" alt="interfaz mockup">
+<main>
 
-<footer>
-    <h5>Correo: seguarinp@unadvirtual.edu.co </h5>
-    <h5> Skype: skeleton.megido </h5>
-    <h5>Fecha: 11/Marzo/2021 </h5>
-    <footer>
+    <div class="contenedor-section">
+        <section class="primer-section">
+            <h1 class="titulo-primersection">Objeto virtual de aprendizaje: Frameworks CSS y Posicionamiento Web</h1>
+            <p class="parrafo-primersection">El propósito de este sitio web es suplir con la necesidad que surge a partir de la pandemia COVID-19 que está afectando la manera de dar las clases a los estudiantes,
+                donde la presencialidad se ve afectada.<br>
+                Aquí se abordarán los temas de Frameworks CSS y Posicionamiento Web, con sus respectivos contenidos y actividades. </p>
+        </section>
+
+        <article class="primer-articulo">
+            <h3 class="titulo-primerarticulo">Frameworks CSS</h3>
+            <p class="parrafo-primerarticulo">
+                <b>CSS (Cascading Style Sheets u Hojas de Estilo en Cascada)</b> es un lenguaje de programación muy parecido a HTML que permite aplicar estilos a los distintos elementos de las páginas web,
+                de modo que los títulos, listas y párrafos pueden verse igual en todas y cada una de las páginas. Entonces, un <b>framework de CSS</b> es una biblioteca de estilos genéricos que puede ser usada para implementar diseños web.<br>
+            </p>
+            <figure class="figure-frameworks">
+                <img class="img-frameworks"src="../Fase%202/image/frameworkcss.png" alt="framework css" >
+                <h5 class="cita-img">Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</h5>
+            </figure>
+        </article>
+
+        <article class="segundo-articulo">
+
+            <div class="cobertura-titulo-parrafo">
+                <h3 class="titulo-segundo articulo">Posicionamiento Web</h3>
+                <p class="parrafo-segundoarticulo">
+                    El posicionamiento en buscadores, optimización en motores de búsqueda o SEO (del inglés search engine optimization), es un conjunto de acciones orientadas a mejorar el posicionamiento
+                    de un sitio web en la lista de resultados  de buscadores de internet (como Google, Bing, u otros buscadores).<br>
+                </p>
+            </div>
+
+            <figure class="figure-posicionamiento">
+                <img class="img-posicionamiento"src="../Fase%202/image/posicionamientoweb.jpg" alt="posicionmiento web">
+                <h5 class="cita-img-2">Posicionamiento en buscadores. (2020, 25 de octubre). Wikipedia, La enciclopedia libre. Fecha de consulta: 04:47, marzo 11, 2021 desde https://es.wikipedia.org/w/index.php?title=Posicionamiento_en_buscadores&oldid=130366542.</h5>
+            </figure>
+
+        </article>
+
+        <div class="mockup-ova">
+            <figure>
+                <h2 class="titulo-mockup">Mockup OVA</h2>
+                <img class="img-mockupova" src="../Fase%202/image/mockup.png" alt="interfaz mockup">
+            </figure>
+        </div>
+
+    </div>
+
+    <aside class="aside-facebok">
+        <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width="" data-height="2000px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversidadUNAD">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote></div>
+    </aside>
+
+</main>
+
+
+
+<footer class="footer">
+    <div class="contenido-footer">
+        <div class="contenido">
+            <img class="icono" src="../Fase%202/image/correo.png" alt="png-correo">
+            <h5>Correo: seguarinp@unadvirtual.edu.co </h5>
+        </div>
+        <div class="contenido">
+            <img class="icono" src="../Fase%202/image/skype.png" alt="png-skype">
+            <h5> Skype: skeleton.megido </h5>
+        </div>
+        <div class="contenido">
+            <img class="icono" src="../Fase%202/image/calendario.png" alt="png-calendario">
+            <h5>Fecha: 11/Abril/2021 </h5>
+        </div>
+
+    </div>
+</footer>
 
 </body>
 </html>
